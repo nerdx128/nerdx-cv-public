@@ -1,0 +1,16 @@
+@import "../Fonts.css";
+
+/** {
+    @apply rounded-none border-none shadow-none !important;
+}*/
+body {
+    @apply h-screen bg-black overflow-hidden;
+}
+
+#root {
+    @apply h-full m-auto;
+}
+
+.App {
+    @apply h-full overflow-y-auto overflow-x-hidden relative !important;
+}

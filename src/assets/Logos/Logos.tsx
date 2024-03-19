@@ -1,0 +1,37 @@
+import * as SI from 'react-icons/si';
+import { getGCPImageUrl } from '@libs/utils';
+
+const imageType = 'logos';
+export const Logos = {
+    Alchemy: getGCPImageUrl('AlchemyLogo.svg', imageType),
+    Army300: getGCPImageUrl('300THLogo.png', imageType),
+    Aspen: getGCPImageUrl('AspenLogo.svg', imageType),
+    SCCI: getGCPImageUrl('SCCI.jpg', imageType),
+    Coinbase: getGCPImageUrl('CoinbaseLogo.svg', imageType),
+    COSM: getGCPImageUrl('COSM.png', imageType),
+    EEPB: getGCPImageUrl('EEPBInnovaTaxLogo.svg', imageType),
+    EmailWhite: getGCPImageUrl('email-white.png', imageType),
+    EtherJS: getGCPImageUrl('EthersJSLogo.svg', imageType),
+    Forever: getGCPImageUrl('TheForeverLogo.png', imageType),
+    GoogleCloud: getGCPImageUrl('GoogleCloudLogo.svg', imageType),
+    HP: getGCPImageUrl('HP.png', imageType),
+    HPE: getGCPImageUrl('HPE.svg', imageType),
+    Magic: getGCPImageUrl('MagicLogo.svg', imageType),
+    MagicNoWords: getGCPImageUrl('MagicLogoNoWords.png', imageType),
+    MoonPay: getGCPImageUrl('MoonPayLogo.svg', imageType),
+    MoonPayNoWords: getGCPImageUrl('MoonPayLogoNoWords.png', imageType),
+    OpenSea: getGCPImageUrl('OpenSeaLogo.svg', imageType),
+    Polygon: getGCPImageUrl('Polygon.svg', imageType),
+    PV: getGCPImageUrl('ProjectVenkmanV.png', imageType),
+    PVV: getGCPImageUrl('ProjectVenkmanV.svg', imageType),
+    SHSU: getGCPImageUrl('SHSULogo.png', imageType),
+    Stripe: getGCPImageUrl('StripeLogo.svg', imageType),
+    USNavy: getGCPImageUrl('USNavyLogo.png', imageType),
+    USArmy: getGCPImageUrl('USArmyLogo.png', imageType),
+    SBDE7: getGCPImageUrl('7SBDELogo.svg', imageType),
+    SignalCorp: getGCPImageUrl('SignalCorpLogo.svg', imageType),
+    TypeORM: getGCPImageUrl('TypeOrmLogo.png', imageType),
+    Wagmi: getGCPImageUrl('WagmiLogo.svg', imageType),
+    WagmiNoWords: getGCPImageUrl('WagmiLogoNoWords.png', imageType),
+    SI: SI,
+};
